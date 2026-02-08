@@ -24,16 +24,18 @@
 
 <body>
 
+
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="#" class="logo">Brundavan<span class="highlight">Colive PG</span>.</a>
+            <a href="#" class="logo">Brundavan<span class="highlight">Co-Live</span>.</a>
             <div class="nav-links">
-                <a href="#hero" class="active">Home</a>
-                <a href="#spaces">Spaces</a>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#rooms">Rooms</a>
                 <a href="#amenities">Amenities</a>
-                <a href="#community">Community</a>
-                <a href="contact.html" class="btn-primary">Contact Us</a>
+                <a href="#location">Location</a>
+                <a href="#contact-owner" class="btn-primary">Contact Owner</a>
             </div>
             <div class="mobile-menu-btn">
                 <i class="fas fa-bars"></i>
@@ -42,94 +44,102 @@
     </nav>
 
     <!-- Hero Section -->
-    <header id="hero" class="hero">
-        <div class="hero-bg">
-            <!-- Background Image will be set in CSS -->
-        </div>
+    <header id="home" class="hero">
+        <div class="hero-bg"></div>
         <div class="hero-overlay"></div>
         <div class="container hero-content">
-            <h1 class="fade-in-up">Brundavan Colive PG</h1>
-            <p class="fade-in-up delay-1">Premium Co-Living Spaces</p>
+            <h1 class="fade-in-up">Comfortable Co-Living PG in Electronic City, Bangalore</h1>
+            <p class="fade-in-up delay-1">Fully furnished rooms for working professionals and students. Safe, clean, and
+                affordable stay.</p>
 
-            <!-- Search Widget -->
-            <!-- Simple CTAs -->
             <div class="hero-buttons fade-in-up delay-2">
-                <a href="contact.html" class="btn-primary">Contact Us</a>
-                <a href="#spaces" class="btn-outline">View Rooms</a>
+                <a href="tel:+919876543210" class="btn-primary"><i class="fas fa-phone-alt"></i> Call Owner</a>
+                <a href="https://wa.me/919876543210" class="btn-whatsapp" target="_blank"><i
+                        class="fab fa-whatsapp"></i> WhatsApp Now</a>
+                <a href="#contact-owner" class="btn-outline">Request Call Back</a>
             </div>
         </div>
     </header>
 
-
-
-
-    <!-- Spaces Section -->
-    <section id="spaces" class="section spaces">
+    <!-- About Section -->
+    <section id="about" class="section about-section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Room Options</h2>
-                <p class="section-subtitle">Choose the perfect space that fits your lifestyle.<br>
-                    <span class="price-highlight">Pricing starts from ₹6,500</span>
-                </p>
+                <h2 class="section-title">About Brundavan Co-Live</h2>
+                <div class="divider-center"></div>
+            </div>
+            <div class="about-content">
+                <p>Welcome to a peaceful and friendly living environment designed for both working professionals and
+                    students. Our PG is well-maintained and personally managed by the owner to ensure a homely
+                    atmosphere.</p>
+                <p>We prioritize cleanliness, safety, and comfort, making it the perfect place to focus on your career
+                    or studies while enjoying a hassle-free stay in Electronic City.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms & Pricing Section -->
+    <section id="rooms" class="section spaces">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Rooms & Sharing Options</h2>
+                <p class="section-subtitle">Choose the perfect space that fits your budget and lifestyle.</p>
             </div>
 
-            <div class="spaces-grid" id="spaces-grid">
-                <!-- Private Room Card -->
-                <div class="space-card" data-category="private">
+            <div class="spaces-grid">
+                <!-- Single Sharing -->
+                <div class="space-card">
                     <div class="card-image">
-                        <img src="private-room.png" alt="Private Bedroom">
-                        <div class="tag">Premium</div>
+                        <img src="private-room.png" alt="Single Sharing Room">
+                        <div class="tag">Premium Privacy</div>
                     </div>
                     <div class="card-content">
-                        <div class="card-header">
-                            <h3>Private Room</h3>
-                        </div>
-                        <p>Enjoy your own private space with all amenities included.</p>
+                        <h3>Single Sharing</h3>
+                        <p>Enjoy your own private space with all amenities included. Ideal for those who value privacy.
+                        </p>
                         <ul class="amenities-list">
-                            <li><i class="fas fa-wifi"></i> Hi-Speed WiFi</li>
-                            <li><i class="fas fa-broom"></i> Daily Cleaning</li>
+                            <li><i class="fas fa-bed"></i> Single Bed</li>
+                            <li><i class="fas fa-user"></i> Private Space</li>
                         </ul>
-                        <a href="contact.html" class="btn-outline">Book Now</a>
                     </div>
                 </div>
 
-                <!-- 2 Sharing Card -->
-                <div class="space-card" data-category="shared">
+                <!-- Double Sharing -->
+                <div class="space-card">
                     <div class="card-image">
-                        <img src="shared-room.png" alt="2 Sharing Room">
-                        <div class="tag">Popular</div>
+                        <img src="shared-room.png" alt="Double Sharing Room">
+                        <div class="tag">Most Popular</div>
                     </div>
                     <div class="card-content">
-                        <div class="card-header">
-                            <h3>2 Sharing Room</h3>
-                        </div>
-                        <p>Share a spacious room with one other person. Balanced privacy and company.</p>
+                        <h3>Double Sharing</h3>
+                        <p>Share a spacious room with one other person. The perfect balance of company and cost.</p>
                         <ul class="amenities-list">
                             <li><i class="fas fa-user-friends"></i> 2 Beds</li>
-                            <li><i class="fas fa-desktop"></i> Study Table</li>
+                            <li><i class="fas fa-rupee-sign"></i> Affordable</li>
                         </ul>
-                        <a href="contact.html" class="btn-outline">Book Now</a>
                     </div>
                 </div>
 
-                <!-- 3 Sharing Card -->
-                <div class="space-card" data-category="shared">
+                <!-- Triple Sharing -->
+                <div class="space-card">
                     <div class="card-image">
-                        <img src="hero.png" alt="3 Sharing Room">
-                        <div class="tag">Value</div>
+                        <img src="hero.png" alt="Triple Sharing Room">
+                        <div class="tag">Budget Friendly</div>
                     </div>
                     <div class="card-content">
-                        <div class="card-header">
-                            <h3>3 Sharing Room</h3>
-                        </div>
-                        <p>Economical option with great company. Perfect for students and friends.</p>
+                        <h3>Triple Sharing</h3>
+                        <p>Economical option with great company. Perfect for students and friends staying together.</p>
                         <ul class="amenities-list">
                             <li><i class="fas fa-users"></i> 3 Beds</li>
                             <li><i class="fas fa-rupee-sign"></i> Best Value</li>
                         </ul>
-                        <a href="contact.html" class="btn-outline">Book Now</a>
                     </div>
                 </div>
+            </div>
+
+            <div class="pricing-note">
+                <i class="fas fa-info-circle"></i>
+                <p><strong>Note:</strong> Final rent, deposit, and terms can be discussed directly with the owner.</p>
             </div>
         </div>
     </section>
@@ -137,88 +147,165 @@
     <!-- Amenities Section -->
     <section id="amenities" class="section amenities">
         <div class="container">
-            <div class="amenities-content">
-                <h2 class="section-title">All-Inclusive Living</h2>
-                <p class="section-subtitle">We handle the boring stuff so you can focus on living.</p>
+            <div class="section-header">
+                <h2 class="section-title">Facilities & Amenities</h2>
+                <p class="section-subtitle">Everything you need for a comfortable stay.</p>
+            </div>
 
-                <div class="amenities-grid">
-                    <div class="amenity-item">
-                        <div class="icon-box"><i class="fas fa-broom"></i></div>
-                        <h4>Daily Cleaning</h4>
-                        <p>We ensure your room and common areas are cleaned daily for a hygienic stay.</p>
-                    </div>
-                    <div class="amenity-item">
-                        <div class="icon-box"><i class="fas fa-tshirt"></i></div>
-                        <h4>Washing Machine</h4>
-                        <p>Self-service washing machines available so you never worry about laundry.</p>
-                    </div>
-                    <div class="amenity-item">
-                        <div class="icon-box"><i class="fas fa-utensils"></i></div>
-                        <h4>Kitchen & Food</h4>
-                        <p>Nutritious and hygienic food provided, plus a community kitchen for your needs.</p>
-                    </div>
-                    <div class="amenity-item">
-                        <div class="icon-box"><i class="fas fa-wifi"></i></div>
-                        <h4>High-Speed WiFi</h4>
-                        <p>Enterprise-grade WiFi connectivity included for work and entertainment.</p>
-                    </div>
+            <div class="amenities-grid">
+                <div class="amenity-item">
+                    <div class="icon-box"><i class="fas fa-wifi"></i></div>
+                    <h4>High-Speed WiFi</h4>
+                </div>
+                <div class="amenity-item">
+                    <div class="icon-box"><i class="fas fa-couch"></i></div>
+                    <h4>Furnished Rooms</h4>
+                </div>
+                <div class="amenity-item">
+                    <div class="icon-box"><i class="fas fa-bolt"></i></div>
+                    <h4>Power Backup</h4>
+                </div>
+                <div class="amenity-item">
+                    <div class="icon-box"><i class="fas fa-tshirt"></i></div>
+                    <h4>Washing Machine</h4>
+                </div>
+                <div class="amenity-item">
+                    <div class="icon-box"><i class="fas fa-broom"></i></div>
+                    <h4>Daily Housekeeping</h4>
+                </div>
+                <div class="amenity-item">
+                    <div class="icon-box"><i class="fas fa-tint"></i></div>
+                    <h4>Drinking Water</h4>
+                </div>
+                <div class="amenity-item">
+                    <div class="icon-box"><i class="fas fa-shield-alt"></i></div>
+                    <h4>Safe Environment</h4>
+                </div>
+                <div class="amenity-item">
+                    <div class="icon-box"><i class="fas fa-leaf"></i></div>
+                    <h4>Peaceful Area</h4>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta-section">
+    <!-- Location Section -->
+    <section id="location" class="section location-section">
         <div class="container">
-            <div class="cta-box">
-                <h2>Ready to move in?</h2>
-                <p>Schedule a free tour today and find your new home.</p>
-                <div class="cta-buttons">
-                    <a href="contact.html" class="btn-primary">Contact Us</a>
+            <div class="section-header">
+                <h2 class="section-title">Prime Location</h2>
+                <p class="section-subtitle">Located in Anand Reddy Layout, Shanthipura, Electronic City Phase II.</p>
+            </div>
+
+            <div class="location-content">
+                <div class="address-box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p><strong>Brundavan Co-Live PG</strong><br>
+                        Beside Live-In Space, Anand Reddy Layout,<br>
+                        Shanthipura, Phase II,<br>
+                        Electronic City, Bengaluru, Karnataka – 560100</p>
+                    <p class="location-note">Close to IT offices, public transport, and daily needs.</p>
                 </div>
+                <!-- Google Maps Embed -->
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.376878654876!2d77.6749!3d12.8590!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6b34ad27c9b1%3A0xe54564c7!2sElectronic%20City%20Phase%20II%2C%20Electronic%20City%2C%20Bengaluru%2C%20Karnataka%20560100!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                        width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Photo Gallery</h2>
+                <p class="section-subtitle">A glimpse of your future home.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="private-room.png" alt="Room View"></div>
+                <div class="gallery-item"><img src="shared-room.png" alt="Shared Room"></div>
+                <div class="gallery-item"><img src="hero.png" alt="Common Area"></div>
+                <!-- Placeholders for more images -->
+                <div class="gallery-item placeholder-img"><span>Washrooms</span></div>
+                <div class="gallery-item placeholder-img"><span>Corridors</span></div>
+                <div class="gallery-item placeholder-img"><span>Building View</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Owner Section (Lead Generation) -->
+    <section id="contact-owner" class="section contact-owner">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact the PG Owner</h2>
+                <p class="section-subtitle">Leave your details and the owner will contact you directly.</p>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <form id="ownerContactForm" class="clean-form" name="submit-to-google-sheet">
+                    <div class="form-group">
+                        <label for="fullName">Full Name <span class="required">*</span></label>
+                        <input type="text" id="fullName" name="Name" required placeholder="Enter your full name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number <span class="required">*</span></label>
+                        <input type="tel" id="phone" name="Phone" required placeholder="Enter your phone number"
+                            pattern="[0-9]{10}" title="Please enter a valid 10-digit phone number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address <span class="optional">(Optional)</span></label>
+                        <input type="email" id="email" name="Email" placeholder="Enter your email address">
+                    </div>
+
+                    <button type="submit" class="btn-primary btn-block">
+                        <span id="btnText">Request Call Back</span>
+                        <i class="fas fa-paper-plane" style="margin-left: 0.5rem;"></i>
+                    </button>
+
+                    <div class="privacy-note">
+                        <i class="fas fa-lock" style="font-size: 0.8rem; margin-right: 0.3rem;"></i>
+                        <small>Your details will only be used to contact you regarding accommodation.</small>
+                    </div>
+                </form>
+                <div id="formMessage" class="form-message"></div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer id="contact" class="footer">
+    <footer class="footer">
         <div class="container">
-            <div class="footer-grid">
+            <div class="footer-content">
                 <div class="footer-brand">
-                    <a href="#" class="logo">Brundavan<span class="highlight">Colive PG</span>.</a>
-                    <p>Redefining urban living for the modern generation.</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+                    <h3>Brundavan Co-Live PG</h3>
+                    <p>Electronic City Phase II, Bengaluru</p>
                 </div>
-                <div class="footer-links">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Press</a></li>
-                    </ul>
+                <div class="footer-contact">
+                    <p><i class="fas fa-phone-alt"></i> +91 98765 43210</p>
+                    <p><i class="fab fa-whatsapp"></i> +91 98765 43210</p>
                 </div>
-                <div class="footer-links">
-                    <h4>Address</h4>
-                    <ul>
-                        <li style="color: #94a3b8; line-height: 1.6;">
-                            <i class="fas fa-map-marker-alt" style="margin-right: 0.5rem; color: var(--primary);"></i>
-                            beside Live-In Space, Anand Reddy Layout, Shanthipura, Phase II, Electronic City, Bengaluru,
-                            Karnataka 560100.
-                        </li>
-                    </ul>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 Brundavan Co-Live PG. All rights reserved.</p>
                 </div>
-
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Brundavan Colive PG. All rights reserved.</p>
             </div>
         </div>
     </footer>
+
+    <!-- Sticky Mobile Conversion Bar -->
+    <div class="mobile-sticky-bar">
+        <a href="tel:+919876543210" class="sticky-btn call-btn">
+            <i class="fas fa-phone-alt"></i> Call Owner
+        </a>
+        <a href="https://wa.me/919876543210" class="sticky-btn whatsapp-btn" target="_blank">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+    </div>
 
     <script src="script.js"></script>
 </body>

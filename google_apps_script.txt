@@ -1,0 +1,19 @@
+function doPost(e) {
+  // 1. Get the active sheet
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  
+  // 2. Get the data from the form
+  // The names inside e.parameter.NAME match the name="NAME" in your HTML
+  var timestamp = new Date();
+  var name = e.parameter.Name;
+  var phone = e.parameter.Phone;
+  var email = e.parameter.Email;
+  
+  // 3. Add the new row to the sheet
+  // Order: Timestamp | Name | Phone | Email
+  sheet.appendRow([timestamp, name, phone, email]);
+  
+  // 4. Return success message
+  return ContentService.createTextOutput(JSON.stringify({'result': 'success'}))
+    .setMimeType(ContentService.MimeType.JSON);
+}
